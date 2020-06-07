@@ -553,13 +553,12 @@ frame {
   padding: 12px 0 30px 0;
 }
 .header-logo {
-  height: 45px;
-  font-size: 30px;
+  height: 80px;
+  font-size: 24px;
 }
 .header-logo img {
   position: relative;
-  width: 45px;
-  height: 60px;
+  height: 120px;
   margin-right: 7px;
   top: 1px;
 }
@@ -645,7 +644,6 @@ frame {
 }
 .top-menu-logo img {
   position: relative;
-  width: 25px;
   height: 60px;
   margin-right: 7px;
   top: 1px;
@@ -3873,4 +3871,31 @@ frame {
   margin-left: -32px;
   top: 50%;
   margin-top: -32px;
+}
+
+/* third party */
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
 }
