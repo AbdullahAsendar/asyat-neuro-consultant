@@ -162,6 +162,7 @@ h4 {
   color: #2491d0;
   margin-bottom: 35px;
   text-transform: uppercase;
+  text-align: center;
 }
 .section-subtitle {
   font-size: 15px;
@@ -4203,9 +4204,21 @@ frame {
   height: 100%;
 }
 
+.center-v {
+  display: flex;
+  align-items: center; /* align vertical */
+}
+
+
+
 .half {
   width:40%;
   height: 40%;
+}
+
+.faq-img {
+  width:80%;
+  height: 80%;
 }
 
 
@@ -4218,42 +4231,50 @@ frame {
   text-align: end;
 }
 
-.a-section {
+.section-a{
+  background-color: transparent;
+}
+
+.section-b{
+  background-color: #f1f8f9;
+}
+
+.section {
   padding: 70px 0 60px;
 }
-.a-section-images img {
+.section-images img {
   max-width: 100%;
 }
-.a-section-text h2 {
+.section-text h2 {
   color: #2491d0;
   font-size: 24px;
   margin-bottom: 20px;
 }
-.a-section-text h3 {
+.section-text h3 {
   font-size: 20px;
 }
 
 
 
-.a-section-text p {
+.section-text p {
   margin-bottom: 25px;
 }
-.a-section .image-carousel img {
+.section .image-carousel img {
   width: 100%;
 }
-.a-section .image-carousel .carousel-btn {
+.section .image-carousel .carousel-btn {
   background: #2491d0;
   color: #fff;
   bottom: 15px;
   top: auto;
 }
-.a-section .image-carousel .carousel-btn:hover,
-.a-section .image-carousel .carousel-btn:focus {
+.section .image-carousel .carousel-btn:hover,
+.section .image-carousel .carousel-btn:focus {
   background: #00dba5;
 }
-.a-section .image-carousel .carousel-next {
+.section .image-carousel .carousel-next {
   left: 55px;
 }
-.a-section .image-carousel .carousel-prev {
+.section .image-carousel .carousel-prev {
   left: 15px;
 }

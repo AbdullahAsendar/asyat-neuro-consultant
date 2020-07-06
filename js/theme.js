@@ -32,9 +32,10 @@ jQuery(document).ready(function($){
 		height: 550,
 		fade: true,
 		arrows: false,
-		buttons: true,
+		buttons: false,
 		waitForLayers: true,
-		autoplay: true,
+		autoplay: false,
+		touchSwipe: false,
 		autoplayDelay: 4000,
 		autoplayOnHover: 'pause',
 		breakpoints: {
