@@ -4278,3 +4278,11 @@ frame {
 .section .image-carousel .carousel-prev {
   left: 15px;
 }
+
+.careers-list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+.careers-list>li {
+  margin-top: 10px;
+}
