@@ -1284,7 +1284,7 @@ frame {
   font-size: 17px;
   left: 30px;
   top: 14px;
-  color: #00dba5;
+  color: #00acdb;
 }
 .booking-form-item.has-error:before {
   color: #f9755f;
@@ -4284,5 +4284,5 @@ frame {
   padding-left: 10px;
 }
 .careers-list>li {
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
